@@ -47,16 +47,17 @@ function getRandomQuote() {
 //printQuote FUNCTION
 function printQuote() {
     let quoteList = getRandomQuote();
-    let message = '';
+    let message = ''
     message += '<p class="quote">' + quoteList.quote + '</p>';
     message += '<p class="source">' + quoteList.source +'</p>';
     if (quoteList.citation) {
-        message += '<span class="citation" text-align: center;>' + quoteList.citation + '</span>';
+        message += '<span class="citation">' + quoteList.citation + '</span>';
     }
     if (quoteList.year) {
-    message += '<p class="year">' + quoteList.year + '</p>';
+        message += '<span class="year">' + quoteList.year + '</span>';
     }
-    return message
+    message + '</p>';
+    return message;
 };
 
-document.write(printQuote())
+document.write(printQuote());
