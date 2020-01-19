@@ -1,3 +1,27 @@
-body {
-    background-color: lightblue;
+/** 
+ * Treehouse FSJS Techdegree
+ * Random Quote Generator - CSS
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
+
+ body { background-color: lightblue; } 
+ /*QUOTE*/ 
+ p { 
+     font-style: italic; 
+    font-size: 50px; text-align: center; 
+}
+ /*SOURCE*/ 
+ p1 { 
+     font-weight: bold; 
+     font-size: 35px; 
+} 
+/*CITATION AND YEAR*/ 
+div { 
+    text-align: center; 
+    font-size: 25px;
+ } 
+ /*BUTTON*/
+  div { 
+      text-align: center; 
 }
